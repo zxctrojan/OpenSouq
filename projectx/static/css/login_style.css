@@ -1,0 +1,93 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  align-content: center;
+  font-family: 'Roboto Serif', sans-serif;
+  line-height: 1.5;
+}
+body {
+  background: url("images/BG1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0;
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+    padding: 10px 10px;
+    background-color: #0b0b2e;
+    top: 0px;
+}
+.navbar ul {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar ul li{
+    margin: 5px 5px;
+    list-style: none;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 52px;
+}
+
+.navbar li a:hover{
+    color:coral;
+}
+.login_container{
+  width: 30rem;
+  background-color: rgba(240,248,255,0.80);
+  margin: 70px auto 10px;
+  padding: 1rem 2rem ;
+  border-radius: 5%;
+}
+.imgcontainer{
+  text-align: center;
+  margin: 12px 0 0;
+}
+.logo{
+  width: 40%;
+  border-radius: 50%;
+}
+.container{
+  padding: 10px 20px 0;
+}
+.row{
+  display: block;
+  margin: 0 0 10px ;
+}
+input[type=text], input[type=password]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {  
+  padding: 14px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  width: 49.25%;
+  border-radius: 10px;
+  border:  solid black;
+}
+button:hover {
+  background-color: #0AC7AC;
+  color: black;
+}
+.login-button{
+  background-color: blue;
+  color: white;
+}
+
+.signup-button{
+  background-color: aliceblue;
+  color: black;
+}
